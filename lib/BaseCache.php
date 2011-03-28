@@ -19,7 +19,6 @@
 class BaseCache implements CacheInterface, ArrayAccess {
 	protected $sessionStats;
 	protected $store; // array containing keys for everything in cache - used for flushing
-	protected $localStorage;
 	private $currentFragment;
 	
 	/**
@@ -37,7 +36,6 @@ class BaseCache implements CacheInterface, ArrayAccess {
 		if(!is_array($this->store)) {
 			$this->store = array();
 		}
-		$this->localStorage = array();
 	}
 	
 	/**
@@ -52,9 +50,6 @@ class BaseCache implements CacheInterface, ArrayAccess {
 	 */
 	public function get($varName) { 
 		$this->sessionStats['gets']++;
-		if($this->localStorage[$varName]) {
-			return $this->localStorage[$varName];
-		}
 	}
 	
 	/**
@@ -72,12 +67,6 @@ class BaseCache implements CacheInterface, ArrayAccess {
 	public function set($varName, $value, $timeout=0) {
 		$this->sessionStats['sets']++;	
 		$this->store[$varName] = true;
-		$this->localStorage[$varName] = $value;
-	}
-	
-	public function replace($varName, $value, $timeout=0) {
-		$this->delete($varName);
-		return $this->set($varName, $value, $timeout=0);
 	}
 	
 	/**
@@ -93,7 +82,6 @@ class BaseCache implements CacheInterface, ArrayAccess {
 	public function delete($varName) {
 		$this->sessionStats['deletes']++;
 		unset($this->store[$varName]);	
-		unset($this->localStorage[$varName]);
 	}
 	
 
@@ -107,7 +95,6 @@ class BaseCache implements CacheInterface, ArrayAccess {
 	 */
 	public function increment($varName, $with=1) { 
 		$this->sessionStats['increments']++;
-		$this->localStorage[$varName] = $this->localStorage[$varName]+$with;
 		return $this->set($varName, $this->get($varName)+$with);
 	}
 	
@@ -121,7 +108,6 @@ class BaseCache implements CacheInterface, ArrayAccess {
 	 */
 	public function decrement($varName, $with=1) { 
 		$this->sessionStats['decrements']++;
-		$this->localStorage[$varName] = $this->localStorage[$varName]+$with;
 		return $this->set($varName, $this->get($varName)-$with);
 	}
 	
@@ -141,10 +127,6 @@ class BaseCache implements CacheInterface, ArrayAccess {
 			}
 		}
 		$this->store = array();
-		$this->delete('megacache-store');
-		$this->delete('store');
-		
-		unset($this->localStorage);
 	}
 	
 	/**
@@ -288,10 +270,6 @@ class BaseCache implements CacheInterface, ArrayAccess {
 	 */
 	public function saveStore() {
 		$this->set('megacache-store', $this->store);
-	}
-	
-	public function getStore() {
-		return $this->get('megacache-store');
 	}
 	
 	/* Array Access implementation */

@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+			<!-- template designed by Marco Von Ballmoos -->
+			<title>Docs For Class CacheSqlite</title>
+			<link rel="stylesheet" href="../media/stylesheet.css" />
+			<meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'/>
+		</head>
+		<body>
+			<div class="page-body">			
+<h2 class="class-name">Class CacheSqlite</h2>
+
+<a name="sec-description"></a>
+<div class="info-box">
+	<div class="info-box-title">Description</div>
+	<div class="nav-bar">
+					<span class="disabled">Description</span> |
+													<a href="#sec-vars">Vars</a>
+						|											<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+						
+					</div>
+	<div class="info-box-body">
+        		<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">CacheSqlite class.</p>
+<p class="description"><p>Uses an Sqlite database as storage engine  Tends to be very quick for gets and slower for sets and deletes</p><p>Requires two configuration options: cachePath and cacheName - see below</p></p>
+	<ul class="tags">
+				<li><span class="field">extends:</span> BaseCache</li>
+			</ul>
+		<p class="notes">
+			Located in <a class="field" href="_adapters---CacheSqlite.php.html">/adapters/CacheSqlite.php</a> (line <span class="field">12</span>)
+		</p>
+		
+				
+		<pre><a href="../default/BaseCache.html">BaseCache</a>
+   |
+   --CacheSqlite</pre>
+	
+			</div>
+</div>
+
+
+
+
+	<a name="sec-method-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Method Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+																		<a href="#sec-vars">Vars</a>
+				 
+				|
+						<span class="disabled">Methods</span> (<a href="#sec-methods">details</a>)
+		</div>
+		<div class="info-box-body">			
+			<div class="method-summary">
+																																												
+												<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#__construct" title="details" class="method-name">__construct</a>
+											(<span class="var-type">array</span>&nbsp;<span class="var-name">$config</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#__destruct" title="details" class="method-name">__destruct</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">bool</span>
+										<a href="#delete" title="details" class="method-name">delete</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$varName</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">mixed</span>
+										<a href="#get" title="details" class="method-name">get</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$varName</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">bool</span>
+										<a href="#set" title="details" class="method-name">set</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$varName</span>, <span class="var-type">mixed</span>&nbsp;<span class="var-name">$value</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$timeout</span> = <span class="var-default">0</span>], <span class="var-type">int</span>&nbsp;<span class="var-name">$timeout.</span>)
+									</div>
+								</div>
+		</div>
+	</div>		
+
+	<a name="sec-vars"></a>
+	<div class="info-box">
+		<div class="info-box-title">Variables</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+										<a href="#sec-var-summary">Vars</a> (<span class="disabled">details</span>)
+						
+			
+										| 
+									<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+							
+					</div>
+		<div class="info-box-body">
+										<h4>Inherited Variables</h4>
+				<A NAME='inherited_vars'><!-- --></A>
+									<p>Inherited from <span class="classname"><a href="../default/BaseCache.html">BaseCache</a></span></p>
+					<blockquote>
+													<span class="var-title">
+								<span class="var-name"><a href="../default/BaseCache.html#var$sessionStats">BaseCache::$sessionStats</a></span><br>
+							</span>
+													<span class="var-title">
+								<span class="var-name"><a href="../default/BaseCache.html#var$store">BaseCache::$store</a></span><br>
+							</span>
+											</blockquote> 
+										
+		</div>
+	</div>
+	
+	<a name="sec-methods"></a>
+	<div class="info-box">
+		<div class="info-box-title">Methods</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+															<a href="#sec-vars">Vars</a>
+																	<a href="#sec-method-summary">Methods</a> (<span class="disabled">details</span>)
+						
+		</div>
+		<div class="info-box-body">
+			<A NAME='method_detail'></A>
+
+<a name="method__construct" id="__construct"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">Constructor __construct</span> (line <span class="line-number">30</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">__construct function.</p>
+<p class="description"><p>the configuration array passed must contain these properties: <ul><li>cachePath: the path where to store the database (path to the directory without trailing slash)</li><li>cacheName: the name of the file where to save to</li></ul>  The database will be created if it doesn't exist already.</p><p>This adapter requires the sqlite extension</p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			__construct
+		</span>
+					(<span class="var-type">array</span>&nbsp;<span class="var-name">$config</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">array</span>
+				<span class="var-name">$config</span>			</li>
+				</ul>
+		
+			<hr class="separator" />
+		<div class="notes">Redefinition of:</div>
+		<dl>
+			<dt><a href="../default/BaseCache.html#method__construct">BaseCache::__construct()</a></dt>
+						<dd>__construct function.</dd>
+					</dl>
+			
+	</div>
+<a name="method__destruct" id="__destruct"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">Destructor __destruct</span> (line <span class="line-number">132</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			__destruct
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methoddelete" id="delete"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">delete</span> (line <span class="line-number">112</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">delete function.</p>
+<p class="description"><p>deletes a variable</p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">bool</span>
+		<span class="method-name">
+			delete
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$varName</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$varName</span>			</li>
+				</ul>
+		
+			<hr class="separator" />
+		<div class="notes">Redefinition of:</div>
+		<dl>
+			<dt><a href="../default/BaseCache.html#methoddelete">BaseCache::delete()</a></dt>
+						<dd>delete function. will be called from the adapter itself</dd>
+					</dl>
+			
+	</div>
+<a name="methodget" id="get"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">get</span> (line <span class="line-number">66</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">get function.</p>
+<p class="description"><p>gets a variable</p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">mixed</span>
+		<span class="method-name">
+			get
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$varName</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$varName</span>			</li>
+				</ul>
+		
+			<hr class="separator" />
+		<div class="notes">Redefinition of:</div>
+		<dl>
+			<dt><a href="../default/BaseCache.html#methodget">BaseCache::get()</a></dt>
+						<dd>get function. will be called from the adapter itself</dd>
+					</dl>
+			
+	</div>
+<a name="methodset" id="set"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">set</span> (line <span class="line-number">91</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">set function.</p>
+<p class="description"><p>sets a variable</p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">bool</span>
+		<span class="method-name">
+			set
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$varName</span>, <span class="var-type">mixed</span>&nbsp;<span class="var-name">$value</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$timeout</span> = <span class="var-default">0</span>], <span class="var-type">int</span>&nbsp;<span class="var-name">$timeout.</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$varName</span>			</li>
+					<li>
+				<span class="var-type">mixed</span>
+				<span class="var-name">$value</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$timeout.</span><span class="var-description">: (default: 0)</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$timeout</span>			</li>
+				</ul>
+		
+			<hr class="separator" />
+		<div class="notes">Redefinition of:</div>
+		<dl>
+			<dt><a href="../default/BaseCache.html#methodset">BaseCache::set()</a></dt>
+						<dd>set function. will be called from the adapter itself</dd>
+					</dl>
+			
+	</div>
+							<h4>Inherited Methods</h4>
+				<a name='inherited_methods'><!-- --></a>	
+									<!-- =========== Summary =========== -->
+					<p>Inherited From <span class="classname"><a href="../default/BaseCache.html">BaseCache</a></span></p>
+					<blockquote>
+													<span class="method-name"><a href="../default/BaseCache.html#method__construct">BaseCache::__construct()</a></span><br>
+													<span class="method-name"><a href="../default/BaseCache.html#methodcall">BaseCache::call()</a></span><br>
+													<span class="method-name"><a href="../default/BaseCache.html#methoddecrement">BaseCache::decrement()</a></span><br>
+													<span class="method-name"><a href="../default/BaseCache.html#methoddelete">BaseCache::delete()</a></span><br>
+													<span class="method-name"><a href="../default/BaseCache.html#methodfetch">BaseCache::fetch()</a></span><br>
+													<span class="method-name"><a href="../default/BaseCache.html#methodflush">BaseCache::flush()</a></span><br>
+													<span class="method-name"><a href="../default/BaseCache.html#methodget">BaseCache::get()</a></span><br>
+													<span class="method-name"><a href="../default/BaseCache.html#methodgetStats">BaseCache::getStats()</a></span><br>
+													<span class="method-name"><a href="../default/BaseCache.html#methodglobalStats">BaseCache::globalStats()</a></span><br>
+													<span class="method-name"><a href="../default/BaseCache.html#methodincrement">BaseCache::increment()</a></span><br>
+													<span class="method-name"><a href="../default/BaseCache.html#methodoffsetExists">BaseCache::offsetExists()</a></span><br>
+													<span class="method-name"><a href="../default/BaseCache.html#methodoffsetGet">BaseCache::offsetGet()</a></span><br>
+													<span class="method-name"><a href="../default/BaseCache.html#methodoffsetSet">BaseCache::offsetSet()</a></span><br>
+													<span class="method-name"><a href="../default/BaseCache.html#methodoffsetUnset">BaseCache::offsetUnset()</a></span><br>
+													<span class="method-name"><a href="../default/BaseCache.html#methodsaveStore">BaseCache::saveStore()</a></span><br>
+													<span class="method-name"><a href="../default/BaseCache.html#methodset">BaseCache::set()</a></span><br>
+											</blockquote>
+										
+		</div>
+	</div>
+
+
+	<p class="notes" id="credit">
+		Documentation generated on Sat, 30 Oct 2010 07:07:16 -0500 by <a href="http://www.phpdoc.org" target="_blank">phpDocumentor 1.4.3</a>
+	</p>
+	</div></body>
+</html>

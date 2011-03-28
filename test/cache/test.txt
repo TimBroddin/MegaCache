@@ -1,0 +1,199 @@
+a:111:{s:12:"somevariable";a:2:{s:5:"value";s:5:"lorem";s:7:"timeout";i:1603813648;}s:41:"function-62ed4ea7b64f2bbd4e20396580c056cc";a:2:{s:5:"value";i:0;s:7:"timeout";i:1288453721;}s:41:"function-c99627257dc594c139c755a6271581b3";a:2:{s:5:"value";i:1;s:7:"timeout";i:1288453709;}s:41:"function-8de8b9adf0745bec182379bc1cb02221";a:2:{s:5:"value";i:2;s:7:"timeout";i:1288453709;}s:41:"function-d8b0d21586790b68e30973d66c4384c8";a:2:{s:5:"value";i:3;s:7:"timeout";i:1288453709;}s:41:"function-44875e3796934df4dbfb13b58eeb5d02";a:2:{s:5:"value";i:4;s:7:"timeout";i:1288453709;}s:41:"function-a712722f79f47e5e02859e4ffa1cbd4e";a:2:{s:5:"value";i:5;s:7:"timeout";i:1288453709;}s:41:"function-95cfb1f332883456c68f415ae115d325";a:2:{s:5:"value";i:6;s:7:"timeout";i:1288453709;}s:41:"function-e14981f4566461fbdc4554a6e95fe923";a:2:{s:5:"value";i:7;s:7:"timeout";i:1288453709;}s:41:"function-0a6cbeac42562d9173067f7840b7bbf9";a:2:{s:5:"value";i:8;s:7:"timeout";i:1288453709;}s:41:"function-6a09774d54e08858c100cd480a4cec13";a:2:{s:5:"value";i:9;s:7:"timeout";i:1288453709;}s:41:"function-3a349f1f71093958eecfeec55200634f";a:2:{s:5:"value";i:1;s:7:"timeout";i:1288453709;}s:41:"function-1629c04c922477df5aae4728476d9ea8";a:2:{s:5:"value";i:2;s:7:"timeout";i:1288453709;}s:41:"function-2b4e099b4968ba12c3fd1d6977352e18";a:2:{s:5:"value";i:3;s:7:"timeout";i:1288453709;}s:41:"function-fd2f391de47739f8740043bb58a138be";a:2:{s:5:"value";i:4;s:7:"timeout";i:1288453709;}s:41:"function-3f03197c648f6d7271b243b0c35e9662";a:2:{s:5:"value";i:5;s:7:"timeout";i:1288453709;}s:41:"function-5755f3a14d9c0968d8916e6c52d1bf37";a:2:{s:5:"value";i:6;s:7:"timeout";i:1288453709;}s:41:"function-1a7234d54f79f78d1b884ed00bce1c3a";a:2:{s:5:"value";i:7;s:7:"timeout";i:1288453709;}s:41:"function-092c7d9985e39ee168619d9eda085044";a:2:{s:5:"value";i:8;s:7:"timeout";i:1288453709;}s:41:"function-33fdd2fea79016d48dfeeff24833efb9";a:2:{s:5:"value";i:9;s:7:"timeout";i:1288453709;}s:41:"function-2b8c97fb4ddbb59e1323601c5fe7546d";a:2:{s:5:"value";i:10;s:7:"timeout";i:1288453709;}s:41:"function-04b7a198e5705554e3fab430d400dadf";a:2:{s:5:"value";i:2;s:7:"timeout";i:1288453709;}s:41:"function-e3c1a42db74c207788b32228665b0858";a:2:{s:5:"value";i:3;s:7:"timeout";i:1288453709;}s:41:"function-9469de545757679c0d5e29755162a64c";a:2:{s:5:"value";i:4;s:7:"timeout";i:1288453709;}s:41:"function-9e098571a1db9c3fa562b40cc106c3f5";a:2:{s:5:"value";i:5;s:7:"timeout";i:1288453709;}s:41:"function-6b217b874eda521f9e6e40fbb520c5ad";a:2:{s:5:"value";i:6;s:7:"timeout";i:1288453709;}s:41:"function-c8f1d87e804e41a6b0c9755a87186cb8";a:2:{s:5:"value";i:7;s:7:"timeout";i:1288453709;}s:41:"function-01075cfd57859530c11747c67c7d3bb4";a:2:{s:5:"value";i:8;s:7:"timeout";i:1288453709;}s:41:"function-cd370bf5d81b84043228398b739fc312";a:2:{s:5:"value";i:9;s:7:"timeout";i:1288453709;}s:41:"function-3501e1196db7723768a9b457a28a19d1";a:2:{s:5:"value";i:10;s:7:"timeout";i:1288453709;}s:41:"function-939fed56d4ff42e44214ab11dda79cb4";a:2:{s:5:"value";i:11;s:7:"timeout";i:1288453709;}s:41:"function-5dbf1fb7e61aa234cd74af4c1c4ec31b";a:2:{s:5:"value";i:3;s:7:"timeout";i:1288453709;}s:41:"function-68b333f390d495b143c02ed63f5e5521";a:2:{s:5:"value";i:4;s:7:"timeout";i:1288453709;}s:41:"function-99e534d96b44bdc7b42320473c51f7c2";a:2:{s:5:"value";i:5;s:7:"timeout";i:1288453709;}s:41:"function-5508aaa389611609e47bf94a6cb74285";a:2:{s:5:"value";i:6;s:7:"timeout";i:1288453709;}s:41:"function-fe7b8496f9eee151e584b607c49afad3";a:2:{s:5:"value";i:7;s:7:"timeout";i:1288453709;}s:41:"function-40b47b8dd42e330699c4939994fe27cb";a:2:{s:5:"value";i:8;s:7:"timeout";i:1288453709;}s:41:"function-20a0037812dc1bc2b093a3634a60328a";a:2:{s:5:"value";i:9;s:7:"timeout";i:1288453709;}s:41:"function-4abf88cb54afda30522901c44cc36c5a";a:2:{s:5:"value";i:10;s:7:"timeout";i:1288453709;}s:41:"function-aaa72f69887a8212abe748eba732d576";a:2:{s:5:"value";i:11;s:7:"timeout";i:1288453709;}s:41:"function-8813910453368921371913b2d40ca2b4";a:2:{s:5:"value";i:12;s:7:"timeout";i:1288453709;}s:41:"function-6efd9ac008cbe89f95fd7126c4655a4c";a:2:{s:5:"value";i:4;s:7:"timeout";i:1288453709;}s:41:"function-45605f8a28af95f1bd9b3dd81f4120f2";a:2:{s:5:"value";i:5;s:7:"timeout";i:1288453709;}s:41:"function-e0a2b5aa2e58c63c48e368045c46d22d";a:2:{s:5:"value";i:6;s:7:"timeout";i:1288453709;}s:41:"function-f2a541641f033d8d36901f3d304566e6";a:2:{s:5:"value";i:7;s:7:"timeout";i:1288453709;}s:41:"function-0edbf82dab8fd44755a4a8c9eeb35b93";a:2:{s:5:"value";i:8;s:7:"timeout";i:1288453709;}s:41:"function-6e17456385e4fd3a0972f25f5a1cd187";a:2:{s:5:"value";i:9;s:7:"timeout";i:1288453709;}s:41:"function-e5e2f3a39026b901aa744b157480a455";a:2:{s:5:"value";i:10;s:7:"timeout";i:1288453709;}s:41:"function-2b97d995d8e23ddaa527d15869cac800";a:2:{s:5:"value";i:11;s:7:"timeout";i:1288453709;}s:41:"function-59fc4749422b548d1995f179a9471b59";a:2:{s:5:"value";i:12;s:7:"timeout";i:1288453709;}s:41:"function-0e0025ca720f2cd7e7c601d6771664b5";a:2:{s:5:"value";i:13;s:7:"timeout";i:1288453709;}s:41:"function-e2f1b63acf065946aadf4a83db819e8d";a:2:{s:5:"value";i:5;s:7:"timeout";i:1288453709;}s:41:"function-7fbfc55e534a991c9fe3327c455c69af";a:2:{s:5:"value";i:6;s:7:"timeout";i:1288453709;}s:41:"function-338a8c49fd89cc852ad46db290b6dcc9";a:2:{s:5:"value";i:7;s:7:"timeout";i:1288453709;}s:41:"function-7acaa115fc7c491f55a9bc695267b0d0";a:2:{s:5:"value";i:8;s:7:"timeout";i:1288453709;}s:41:"function-4add10d57c164fbceda743dee3a64bb3";a:2:{s:5:"value";i:9;s:7:"timeout";i:1288453709;}s:41:"function-cf6b7e2bbef2ee4f39d0c7bee0c42e2a";a:2:{s:5:"value";i:10;s:7:"timeout";i:1288453709;}s:41:"function-44fc7bbb9afbec3cc7bbb2dff25a0db5";a:2:{s:5:"value";i:11;s:7:"timeout";i:1288453709;}s:41:"function-64e5768185e9876efa0ad4e75927cf32";a:2:{s:5:"value";i:12;s:7:"timeout";i:1288453709;}s:41:"function-00a742be4916ed2965e0ed2feafc9f72";a:2:{s:5:"value";i:13;s:7:"timeout";i:1288453709;}s:41:"function-e88e596e681f3670b6e461ac9b5f5f5c";a:2:{s:5:"value";i:14;s:7:"timeout";i:1288453709;}s:41:"function-e3f04f2ba91150c825a017a9d4225493";a:2:{s:5:"value";i:6;s:7:"timeout";i:1288453709;}s:41:"function-62d6f49078116c9ee2ce2af46c52d657";a:2:{s:5:"value";i:7;s:7:"timeout";i:1288453709;}s:41:"function-5cf9e4a81d996cd4081681bc0a2cb7a2";a:2:{s:5:"value";i:8;s:7:"timeout";i:1288453709;}s:41:"function-865318914edf152f108aa9417f2ab0d6";a:2:{s:5:"value";i:9;s:7:"timeout";i:1288453709;}s:41:"function-5fb91bb2a3b87a3930ba217967ad3edf";a:2:{s:5:"value";i:10;s:7:"timeout";i:1288453709;}s:41:"function-ed3970c1bd31a4b2c9edce4e656d1abf";a:2:{s:5:"value";i:11;s:7:"timeout";i:1288453709;}s:41:"function-0a6648b46407135d808cec8326c258c4";a:2:{s:5:"value";i:12;s:7:"timeout";i:1288453709;}s:41:"function-52dbc25978e98d5cd40064101415e043";a:2:{s:5:"value";i:13;s:7:"timeout";i:1288453709;}s:41:"function-3c1734397c610a912d0239d7341c777d";a:2:{s:5:"value";i:14;s:7:"timeout";i:1288453709;}s:41:"function-0216ff5217a725d37494184b2097e580";a:2:{s:5:"value";i:15;s:7:"timeout";i:1288453709;}s:41:"function-cab2cd370d3ec9505aed0e2f90495bcb";a:2:{s:5:"value";i:7;s:7:"timeout";i:1288453709;}s:41:"function-eefc1a7f393f89e5648d124f9946cc59";a:2:{s:5:"value";i:8;s:7:"timeout";i:1288453709;}s:41:"function-5bd2f444379c2ad7ddf9cf6847d238b0";a:2:{s:5:"value";i:9;s:7:"timeout";i:1288453709;}s:41:"function-292661bb5af9458926f45990d3512beb";a:2:{s:5:"value";i:10;s:7:"timeout";i:1288453709;}s:41:"function-e6dfd1a96398c1dbec5fe26615d8be39";a:2:{s:5:"value";i:11;s:7:"timeout";i:1288453709;}s:41:"function-e26ddbfd54f3dada7f8ff03d193fe875";a:2:{s:5:"value";i:12;s:7:"timeout";i:1288453709;}s:41:"function-52c36cbde324bab0698d9b6003ed9689";a:2:{s:5:"value";i:13;s:7:"timeout";i:1288453709;}s:41:"function-abf6c24cae113ff1cda67d26ad657d34";a:2:{s:5:"value";i:14;s:7:"timeout";i:1288453709;}s:41:"function-2b9bee33f2a48af0faac70752aef3954";a:2:{s:5:"value";i:15;s:7:"timeout";i:1288453709;}s:41:"function-8f98b0dff3afd5c2da93e3f3ad641356";a:2:{s:5:"value";i:16;s:7:"timeout";i:1288453709;}s:41:"function-7856410b8e885e84ef5f39b1b48a09b5";a:2:{s:5:"value";i:8;s:7:"timeout";i:1288453709;}s:41:"function-4784c0cfe87a6d0738e3c464e6dae7d5";a:2:{s:5:"value";i:9;s:7:"timeout";i:1288453709;}s:41:"function-cbeb4dfcefc1d954ea4834408d1cf23e";a:2:{s:5:"value";i:10;s:7:"timeout";i:1288453709;}s:41:"function-827f40ffdb2b6bd10f1aba05e929aa37";a:2:{s:5:"value";i:11;s:7:"timeout";i:1288453709;}s:41:"function-1adae2b822b06dd18110aaad793ce817";a:2:{s:5:"value";i:12;s:7:"timeout";i:1288453709;}s:41:"function-3df70f90204d95922db8ee740d566562";a:2:{s:5:"value";i:13;s:7:"timeout";i:1288453709;}s:41:"function-f775574ac9bb04a8cf7e0de3a5244d0a";a:2:{s:5:"value";i:14;s:7:"timeout";i:1288453709;}s:41:"function-4d383dad4e149a380906e4ba71138b1a";a:2:{s:5:"value";i:15;s:7:"timeout";i:1288453709;}s:41:"function-c643500d3f0b45a7e530e14709876139";a:2:{s:5:"value";i:16;s:7:"timeout";i:1288453709;}s:41:"function-8ac8d902136b89e337cbf238dddd62f7";a:2:{s:5:"value";i:17;s:7:"timeout";i:1288453709;}s:41:"function-75014237a4b3025e7e8862ee22b18660";a:2:{s:5:"value";i:9;s:7:"timeout";i:1288453709;}s:41:"function-711c27a7c8b8f25e4cd2bd0705c7a9f4";a:2:{s:5:"value";i:10;s:7:"timeout";i:1288453709;}s:41:"function-7febab92d8d0cabdba97f0e1397c7c79";a:2:{s:5:"value";i:11;s:7:"timeout";i:1288453709;}s:41:"function-2a25c556308a9171391bdbbb019e7ac2";a:2:{s:5:"value";i:12;s:7:"timeout";i:1288453709;}s:41:"function-cdc6d1a49793ba950ca5f2da4e460549";a:2:{s:5:"value";i:13;s:7:"timeout";i:1288453709;}s:41:"function-1a852d273aeb48ca2eb9f5aff86131e4";a:2:{s:5:"value";i:14;s:7:"timeout";i:1288453709;}s:41:"function-ac78b63749646519c63ff73c6f842cc3";a:2:{s:5:"value";i:15;s:7:"timeout";i:1288453709;}s:41:"function-29e29a73465d320ef461963a0c03c9ed";a:2:{s:5:"value";i:16;s:7:"timeout";i:1288453709;}s:41:"function-c3f3bdc59f5d82011e78e1e890261d9b";a:2:{s:5:"value";i:17;s:7:"timeout";i:1288453709;}s:41:"function-a90eaf5bc6c86c6f59c316d247a79913";a:2:{s:5:"value";i:18;s:7:"timeout";i:1288453709;}s:41:"resource-5199c02eaf9999deaeadce42b3786d73";a:2:{s:5:"value";s:11826:"<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:georss="http://www.georss.org/georss" xmlns:twitter="http://api.twitter.com">
+  <channel>
+    <title>Twitter / qubecity</title>
+    <link>http://twitter.com/qubecity</link>
+    <atom:link type="application/rss+xml" href="http://twitter.com/statuses/user_timeline/61297416.rss" rel="self"/>
+    <description>Twitter updates from Quinten Clause / qubecity.</description>
+    <language>en-us</language>
+    <ttl>40</ttl>
+  <item>
+    <title>qubecity: who tf gives a font a different tint by changing the alpha #sowrong</title>
+    <description>qubecity: who tf gives a font a different tint by changing the alpha #sowrong</description>
+    <pubDate>Fri, 29 Oct 2010 09:26:58 +0000</pubDate>
+    <guid>http://twitter.com/qubecity/statuses/29071157421</guid>
+    <link>http://twitter.com/qubecity/statuses/29071157421</link>
+    <twitter:source>web</twitter:source>
+    <twitter:place/>
+  </item>
+  <item>
+    <title>qubecity: RT @swfgeek: Molehill 3D APIs for Adobe Flash Player and Air http://bit.ly/cI1m3q</title>
+    <description>qubecity: RT @swfgeek: Molehill 3D APIs for Adobe Flash Player and Air http://bit.ly/cI1m3q</description>
+    <pubDate>Tue, 26 Oct 2010 14:36:44 +0000</pubDate>
+    <guid>http://twitter.com/qubecity/statuses/28796543516</guid>
+    <link>http://twitter.com/qubecity/statuses/28796543516</link>
+    <twitter:source>web</twitter:source>
+    <twitter:place/>
+  </item>
+  <item>
+    <title>qubecity: Support the Belgians(w're poor) - http://www.thefwa.com/submissions/bshirt-united-states-of-belgium | Bshirt United States of belgium</title>
+    <description>qubecity: Support the Belgians(w're poor) - http://www.thefwa.com/submissions/bshirt-united-states-of-belgium | Bshirt United States of belgium</description>
+    <pubDate>Tue, 26 Oct 2010 14:24:01 +0000</pubDate>
+    <guid>http://twitter.com/qubecity/statuses/28795420558</guid>
+    <link>http://twitter.com/qubecity/statuses/28795420558</link>
+    <twitter:source>web</twitter:source>
+    <twitter:place/>
+  </item>
+  <item>
+    <title>qubecity: http://www.youtube.com/watch?v=tgwi0lWgX8w gorgeous shiny Flash sports cars</title>
+    <description>qubecity: http://www.youtube.com/watch?v=tgwi0lWgX8w gorgeous shiny Flash sports cars</description>
+    <pubDate>Tue, 26 Oct 2010 12:54:19 +0000</pubDate>
+    <guid>http://twitter.com/qubecity/statuses/28787469934</guid>
+    <link>http://twitter.com/qubecity/statuses/28787469934</link>
+    <twitter:source>web</twitter:source>
+    <twitter:place/>
+  </item>
+  <item>
+    <title>qubecity: if you translate 'world wide web' with google into Latin you get 'tela totius' where 'telea' is 'web' and 'totius' means 'of the whole'</title>
+    <description>qubecity: if you translate 'world wide web' with google into Latin you get 'tela totius' where 'telea' is 'web' and 'totius' means 'of the whole'</description>
+    <pubDate>Mon, 25 Oct 2010 22:37:16 +0000</pubDate>
+    <guid>http://twitter.com/qubecity/statuses/28731704360</guid>
+    <link>http://twitter.com/qubecity/statuses/28731704360</link>
+    <twitter:source>web</twitter:source>
+    <twitter:place/>
+  </item>
+  <item>
+    <title>qubecity: I just signed the Contribute the Apple JDK source to OpenJ petition (signature #509) at http://www.petitionspot.com/petitions/macjdk</title>
+    <description>qubecity: I just signed the Contribute the Apple JDK source to OpenJ petition (signature #509) at http://www.petitionspot.com/petitions/macjdk</description>
+    <pubDate>Sun, 24 Oct 2010 20:47:35 +0000</pubDate>
+    <guid>http://twitter.com/qubecity/statuses/28627331615</guid>
+    <link>http://twitter.com/qubecity/statuses/28627331615</link>
+    <twitter:source>&lt;a href=&quot;http://www.petitionspot.com&quot; rel=&quot;nofollow&quot;&gt;Petitionspot&lt;/a&gt;</twitter:source>
+    <twitter:place/>
+  </item>
+  <item>
+    <title>qubecity: porting some code back from js to as3. oh so wrong,but oh so right</title>
+    <description>qubecity: porting some code back from js to as3. oh so wrong,but oh so right</description>
+    <pubDate>Sun, 24 Oct 2010 20:45:25 +0000</pubDate>
+    <guid>http://twitter.com/qubecity/statuses/28627192902</guid>
+    <link>http://twitter.com/qubecity/statuses/28627192902</link>
+    <twitter:source>web</twitter:source>
+    <twitter:place/>
+  </item>
+  <item>
+    <title>qubecity: how to let the stage disapear in the flash ide. change the document background color to #dddddd</title>
+    <description>qubecity: how to let the stage disapear in the flash ide. change the document background color to #dddddd</description>
+    <pubDate>Wed, 20 Oct 2010 17:19:37 +0000</pubDate>
+    <guid>http://twitter.com/qubecity/statuses/27949515000</guid>
+    <link>http://twitter.com/qubecity/statuses/27949515000</link>
+    <twitter:source>web</twitter:source>
+    <twitter:place/>
+  </item>
+  <item>
+    <title>qubecity: IE9 is the IE6 of CSS3: http://t.co/658QeX8 this looks horrible</title>
+    <description>qubecity: IE9 is the IE6 of CSS3: http://t.co/658QeX8 this looks horrible</description>
+    <pubDate>Wed, 20 Oct 2010 13:25:56 +0000</pubDate>
+    <guid>http://twitter.com/qubecity/statuses/27930644635</guid>
+    <link>http://twitter.com/qubecity/statuses/27930644635</link>
+    <twitter:source>&lt;a href=&quot;http://twitter.com/tweetbutton&quot; rel=&quot;nofollow&quot;&gt;Tweet Button&lt;/a&gt;</twitter:source>
+    <twitter:place/>
+  </item>
+  <item>
+    <title>qubecity: http://twitpic.com/2z3eyw/full ui concept generative art sequencer at the small screen size of 320 x 240 pixels</title>
+    <description>qubecity: http://twitpic.com/2z3eyw/full ui concept generative art sequencer at the small screen size of 320 x 240 pixels</description>
+    <pubDate>Tue, 19 Oct 2010 21:52:52 +0000</pubDate>
+    <guid>http://twitter.com/qubecity/statuses/27871522973</guid>
+    <link>http://twitter.com/qubecity/statuses/27871522973</link>
+    <twitter:source>web</twitter:source>
+    <twitter:place/>
+  </item>
+  <item>
+    <title>qubecity: RT @Arubin: the definition of open: &quot;mkdir android ; cd android ; repo init -u git://android.git.kernel.org/platform/manifest.git ; repo ...</title>
+    <description>qubecity: RT @Arubin: the definition of open: &quot;mkdir android ; cd android ; repo init -u git://android.git.kernel.org/platform/manifest.git ; repo ...</description>
+    <pubDate>Tue, 19 Oct 2010 17:26:13 +0000</pubDate>
+    <guid>http://twitter.com/qubecity/statuses/27853205988</guid>
+    <link>http://twitter.com/qubecity/statuses/27853205988</link>
+    <twitter:source>web</twitter:source>
+    <twitter:place/>
+  </item>
+  <item>
+    <title>qubecity: http://t.co/XxPebLb my lunch this afternoon. wonder what would happen if i baked ben &amp; jerry's cookie dough in an oven</title>
+    <description>qubecity: http://t.co/XxPebLb my lunch this afternoon. wonder what would happen if i baked ben &amp; jerry's cookie dough in an oven</description>
+    <pubDate>Tue, 19 Oct 2010 09:53:49 +0000</pubDate>
+    <guid>http://twitter.com/qubecity/statuses/27818216318</guid>
+    <link>http://twitter.com/qubecity/statuses/27818216318</link>
+    <twitter:source>&lt;a href=&quot;http://twitter.com/tweetbutton&quot; rel=&quot;nofollow&quot;&gt;Tweet Button&lt;/a&gt;</twitter:source>
+    <twitter:place/>
+  </item>
+  <item>
+    <title>qubecity: also noticed last night that payed apps are available in the android market for belgium woohoow</title>
+    <description>qubecity: also noticed last night that payed apps are available in the android market for belgium woohoow</description>
+    <pubDate>Tue, 19 Oct 2010 09:10:13 +0000</pubDate>
+    <guid>http://twitter.com/qubecity/statuses/27816072086</guid>
+    <link>http://twitter.com/qubecity/statuses/27816072086</link>
+    <twitter:source>web</twitter:source>
+    <twitter:place/>
+  </item>
+  <item>
+    <title>qubecity: played Code Bummer by @CodeBum last night http://t.co/bBvkYdp 
+fun game with oldschool pixelart and 4bitsounds</title>
+    <description>qubecity: played Code Bummer by @CodeBum last night http://t.co/bBvkYdp 
+fun game with oldschool pixelart and 4bitsounds</description>
+    <pubDate>Tue, 19 Oct 2010 09:08:11 +0000</pubDate>
+    <guid>http://twitter.com/qubecity/statuses/27815975359</guid>
+    <link>http://twitter.com/qubecity/statuses/27815975359</link>
+    <twitter:source>&lt;a href=&quot;http://twitter.com/tweetbutton&quot; rel=&quot;nofollow&quot;&gt;Tweet Button&lt;/a&gt;</twitter:source>
+    <twitter:place/>
+  </item>
+  <item>
+    <title>qubecity: since i am on vacation tomorrow: i will only use inline css and pink font colors. hehe</title>
+    <description>qubecity: since i am on vacation tomorrow: i will only use inline css and pink font colors. hehe</description>
+    <pubDate>Mon, 18 Oct 2010 12:42:53 +0000</pubDate>
+    <guid>http://twitter.com/qubecity/statuses/27730468161</guid>
+    <link>http://twitter.com/qubecity/statuses/27730468161</link>
+    <twitter:source>web</twitter:source>
+    <twitter:place/>
+  </item>
+  <item>
+    <title>qubecity: half assed is the industry standard</title>
+    <description>qubecity: half assed is the industry standard</description>
+    <pubDate>Mon, 18 Oct 2010 09:15:28 +0000</pubDate>
+    <guid>http://twitter.com/qubecity/statuses/27718003706</guid>
+    <link>http://twitter.com/qubecity/statuses/27718003706</link>
+    <twitter:source>web</twitter:source>
+    <twitter:place/>
+  </item>
+  <item>
+    <title>qubecity: remixing some code for the #cubicclash visuals due 30th october @ Warande Turnhout BE anyone suggestions for some cool #as3 frameworks?</title>
+    <description>qubecity: remixing some code for the #cubicclash visuals due 30th october @ Warande Turnhout BE anyone suggestions for some cool #as3 frameworks?</description>
+    <pubDate>Sun, 17 Oct 2010 18:51:53 +0000</pubDate>
+    <guid>http://twitter.com/qubecity/statuses/27662426833</guid>
+    <link>http://twitter.com/qubecity/statuses/27662426833</link>
+    <twitter:source>web</twitter:source>
+    <twitter:place/>
+  </item>
+  <item>
+    <title>qubecity: RT @hossgifford: Fun Friday toy to remind you Flash is good. Monster trucks, extruded type, &amp; beach balls. http://helloenjoy.com/ via @C ...</title>
+    <description>qubecity: RT @hossgifford: Fun Friday toy to remind you Flash is good. Monster trucks, extruded type, &amp; beach balls. http://helloenjoy.com/ via @C ...</description>
+    <pubDate>Fri, 15 Oct 2010 15:27:51 +0000</pubDate>
+    <guid>http://twitter.com/qubecity/statuses/27451892612</guid>
+    <link>http://twitter.com/qubecity/statuses/27451892612</link>
+    <twitter:source>web</twitter:source>
+    <twitter:place/>
+  </item>
+  <item>
+    <title>qubecity: @Bram_VD the code hinting of #FDT4 is way behind that of #Flashdevelop. I've come to same conclusion. It's not just you.</title>
+    <description>qubecity: @Bram_VD the code hinting of #FDT4 is way behind that of #Flashdevelop. I've come to same conclusion. It's not just you.</description>
+    <pubDate>Fri, 15 Oct 2010 12:40:26 +0000</pubDate>
+    <guid>http://twitter.com/qubecity/statuses/27436677641</guid>
+    <link>http://twitter.com/qubecity/statuses/27436677641</link>
+    <twitter:source>web</twitter:source>
+    <twitter:place/>
+  </item>
+  <item>
+    <title>qubecity: bought a lot of crap at the supermarket to mask that i was eating a microwave meal tonight</title>
+    <description>qubecity: bought a lot of crap at the supermarket to mask that i was eating a microwave meal tonight</description>
+    <pubDate>Wed, 13 Oct 2010 17:39:45 +0000</pubDate>
+    <guid>http://twitter.com/qubecity/statuses/27262339680</guid>
+    <link>http://twitter.com/qubecity/statuses/27262339680</link>
+    <twitter:source>web</twitter:source>
+    <twitter:place/>
+  </item>
+  </channel>
+</rss>
+";s:7:"timeout";i:1288453670;}s:8:"test-a-0";a:2:{s:5:"value";i:1;s:7:"timeout";i:1288453711;}s:8:"test-a-1";a:2:{s:5:"value";i:1;s:7:"timeout";i:1288453712;}s:8:"test-a-2";a:2:{s:5:"value";i:1;s:7:"timeout";i:1288453713;}s:8:"test-a-3";a:2:{s:5:"value";i:1;s:7:"timeout";i:1288453714;}s:8:"test-a-4";a:2:{s:5:"value";i:1;s:7:"timeout";i:1288453715;}s:11:"arrayaccess";a:2:{s:5:"value";i:5;s:7:"timeout";i:1603813661;}s:16:"fragment-heading";a:2:{s:5:"value";s:45:"10:47:36
+10:47:37
+10:47:38
+10:47:39
+10:47:40
+";s:7:"timeout";i:1288453720;}s:15:"megacache-store";a:2:{s:5:"value";a:109:{s:12:"somevariable";b:1;s:41:"function-62ed4ea7b64f2bbd4e20396580c056cc";b:1;s:41:"function-c99627257dc594c139c755a6271581b3";b:1;s:41:"function-8de8b9adf0745bec182379bc1cb02221";b:1;s:41:"function-d8b0d21586790b68e30973d66c4384c8";b:1;s:41:"function-44875e3796934df4dbfb13b58eeb5d02";b:1;s:41:"function-a712722f79f47e5e02859e4ffa1cbd4e";b:1;s:41:"function-95cfb1f332883456c68f415ae115d325";b:1;s:41:"function-e14981f4566461fbdc4554a6e95fe923";b:1;s:41:"function-0a6cbeac42562d9173067f7840b7bbf9";b:1;s:41:"function-6a09774d54e08858c100cd480a4cec13";b:1;s:41:"function-3a349f1f71093958eecfeec55200634f";b:1;s:41:"function-1629c04c922477df5aae4728476d9ea8";b:1;s:41:"function-2b4e099b4968ba12c3fd1d6977352e18";b:1;s:41:"function-fd2f391de47739f8740043bb58a138be";b:1;s:41:"function-3f03197c648f6d7271b243b0c35e9662";b:1;s:41:"function-5755f3a14d9c0968d8916e6c52d1bf37";b:1;s:41:"function-1a7234d54f79f78d1b884ed00bce1c3a";b:1;s:41:"function-092c7d9985e39ee168619d9eda085044";b:1;s:41:"function-33fdd2fea79016d48dfeeff24833efb9";b:1;s:41:"function-2b8c97fb4ddbb59e1323601c5fe7546d";b:1;s:41:"function-04b7a198e5705554e3fab430d400dadf";b:1;s:41:"function-e3c1a42db74c207788b32228665b0858";b:1;s:41:"function-9469de545757679c0d5e29755162a64c";b:1;s:41:"function-9e098571a1db9c3fa562b40cc106c3f5";b:1;s:41:"function-6b217b874eda521f9e6e40fbb520c5ad";b:1;s:41:"function-c8f1d87e804e41a6b0c9755a87186cb8";b:1;s:41:"function-01075cfd57859530c11747c67c7d3bb4";b:1;s:41:"function-cd370bf5d81b84043228398b739fc312";b:1;s:41:"function-3501e1196db7723768a9b457a28a19d1";b:1;s:41:"function-939fed56d4ff42e44214ab11dda79cb4";b:1;s:41:"function-5dbf1fb7e61aa234cd74af4c1c4ec31b";b:1;s:41:"function-68b333f390d495b143c02ed63f5e5521";b:1;s:41:"function-99e534d96b44bdc7b42320473c51f7c2";b:1;s:41:"function-5508aaa389611609e47bf94a6cb74285";b:1;s:41:"function-fe7b8496f9eee151e584b607c49afad3";b:1;s:41:"function-40b47b8dd42e330699c4939994fe27cb";b:1;s:41:"function-20a0037812dc1bc2b093a3634a60328a";b:1;s:41:"function-4abf88cb54afda30522901c44cc36c5a";b:1;s:41:"function-aaa72f69887a8212abe748eba732d576";b:1;s:41:"function-8813910453368921371913b2d40ca2b4";b:1;s:41:"function-6efd9ac008cbe89f95fd7126c4655a4c";b:1;s:41:"function-45605f8a28af95f1bd9b3dd81f4120f2";b:1;s:41:"function-e0a2b5aa2e58c63c48e368045c46d22d";b:1;s:41:"function-f2a541641f033d8d36901f3d304566e6";b:1;s:41:"function-0edbf82dab8fd44755a4a8c9eeb35b93";b:1;s:41:"function-6e17456385e4fd3a0972f25f5a1cd187";b:1;s:41:"function-e5e2f3a39026b901aa744b157480a455";b:1;s:41:"function-2b97d995d8e23ddaa527d15869cac800";b:1;s:41:"function-59fc4749422b548d1995f179a9471b59";b:1;s:41:"function-0e0025ca720f2cd7e7c601d6771664b5";b:1;s:41:"function-e2f1b63acf065946aadf4a83db819e8d";b:1;s:41:"function-7fbfc55e534a991c9fe3327c455c69af";b:1;s:41:"function-338a8c49fd89cc852ad46db290b6dcc9";b:1;s:41:"function-7acaa115fc7c491f55a9bc695267b0d0";b:1;s:41:"function-4add10d57c164fbceda743dee3a64bb3";b:1;s:41:"function-cf6b7e2bbef2ee4f39d0c7bee0c42e2a";b:1;s:41:"function-44fc7bbb9afbec3cc7bbb2dff25a0db5";b:1;s:41:"function-64e5768185e9876efa0ad4e75927cf32";b:1;s:41:"function-00a742be4916ed2965e0ed2feafc9f72";b:1;s:41:"function-e88e596e681f3670b6e461ac9b5f5f5c";b:1;s:41:"function-e3f04f2ba91150c825a017a9d4225493";b:1;s:41:"function-62d6f49078116c9ee2ce2af46c52d657";b:1;s:41:"function-5cf9e4a81d996cd4081681bc0a2cb7a2";b:1;s:41:"function-865318914edf152f108aa9417f2ab0d6";b:1;s:41:"function-5fb91bb2a3b87a3930ba217967ad3edf";b:1;s:41:"function-ed3970c1bd31a4b2c9edce4e656d1abf";b:1;s:41:"function-0a6648b46407135d808cec8326c258c4";b:1;s:41:"function-52dbc25978e98d5cd40064101415e043";b:1;s:41:"function-3c1734397c610a912d0239d7341c777d";b:1;s:41:"function-0216ff5217a725d37494184b2097e580";b:1;s:41:"function-cab2cd370d3ec9505aed0e2f90495bcb";b:1;s:41:"function-eefc1a7f393f89e5648d124f9946cc59";b:1;s:41:"function-5bd2f444379c2ad7ddf9cf6847d238b0";b:1;s:41:"function-292661bb5af9458926f45990d3512beb";b:1;s:41:"function-e6dfd1a96398c1dbec5fe26615d8be39";b:1;s:41:"function-e26ddbfd54f3dada7f8ff03d193fe875";b:1;s:41:"function-52c36cbde324bab0698d9b6003ed9689";b:1;s:41:"function-abf6c24cae113ff1cda67d26ad657d34";b:1;s:41:"function-2b9bee33f2a48af0faac70752aef3954";b:1;s:41:"function-8f98b0dff3afd5c2da93e3f3ad641356";b:1;s:41:"function-7856410b8e885e84ef5f39b1b48a09b5";b:1;s:41:"function-4784c0cfe87a6d0738e3c464e6dae7d5";b:1;s:41:"function-cbeb4dfcefc1d954ea4834408d1cf23e";b:1;s:41:"function-827f40ffdb2b6bd10f1aba05e929aa37";b:1;s:41:"function-1adae2b822b06dd18110aaad793ce817";b:1;s:41:"function-3df70f90204d95922db8ee740d566562";b:1;s:41:"function-f775574ac9bb04a8cf7e0de3a5244d0a";b:1;s:41:"function-4d383dad4e149a380906e4ba71138b1a";b:1;s:41:"function-c643500d3f0b45a7e530e14709876139";b:1;s:41:"function-8ac8d902136b89e337cbf238dddd62f7";b:1;s:41:"function-75014237a4b3025e7e8862ee22b18660";b:1;s:41:"function-711c27a7c8b8f25e4cd2bd0705c7a9f4";b:1;s:41:"function-7febab92d8d0cabdba97f0e1397c7c79";b:1;s:41:"function-2a25c556308a9171391bdbbb019e7ac2";b:1;s:41:"function-cdc6d1a49793ba950ca5f2da4e460549";b:1;s:41:"function-1a852d273aeb48ca2eb9f5aff86131e4";b:1;s:41:"function-ac78b63749646519c63ff73c6f842cc3";b:1;s:41:"function-29e29a73465d320ef461963a0c03c9ed";b:1;s:41:"function-c3f3bdc59f5d82011e78e1e890261d9b";b:1;s:41:"function-a90eaf5bc6c86c6f59c316d247a79913";b:1;s:41:"resource-5199c02eaf9999deaeadce42b3786d73";b:1;s:8:"test-a-0";b:1;s:8:"test-a-1";b:1;s:8:"test-a-2";b:1;s:8:"test-a-3";b:1;s:8:"test-a-4";b:1;s:11:"arrayaccess";b:1;s:16:"fragment-heading";b:1;}s:7:"timeout";i:1603813661;}s:21:"megacache-globalstats";a:2:{s:5:"value";a:7:{s:4:"hits";i:0;s:6:"misses";i:0;s:4:"sets";i:0;s:4:"gets";i:0;s:7:"deletes";i:0;s:10:"increments";i:0;s:10:"decrements";i:0;}s:7:"timeout";i:1603813661;}}

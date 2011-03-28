@@ -49,9 +49,7 @@ class cacheApc extends BaseCache  {
 	 * @return mixed
 	 */
 	public function get($varName) {
-		if($result = parent::get($varName)) {
-			return $result;
-		}
+		parent::get($varName);
 		if(!$result = apc_fetch($this->cacheName . $varName)) {
 			$this->sessionStats['misses']++;
 			return false;

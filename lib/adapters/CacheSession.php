@@ -50,9 +50,9 @@ class CacheSession extends BaseCache  {
 	public function get($varName) {
 		parent::get($varName);
 		if(array_key_exists($varName, $_SESSION['cache'])) {
-			if($_SESSION['cache'][$varName]['timeout'] > time()) {
+			if($_SESSION[$varName]['timeout'] > time()) {
 				$this->sessionStats['hits']++;
-				return $_SESSION['cache'][$varName]['value'];
+				return $_SESSION[$varName]['value'];
 			} else {
 				$this->sessionStats['misses']++;
 				return false;

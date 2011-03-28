@@ -6,8 +6,8 @@
  * @author Tim Broddin <tim@brodd.in>
  * @package MegaCache
  */
-require(dirname(__FILE__) . '/CacheInterface.php');
-require(dirname(__FILE__) . '/BaseCache.php');
+require('CacheInterface.php');
+require('BaseCache.php');
 /**
  * CacheFactory class.
  * returns right cache object 
@@ -31,8 +31,7 @@ class CacheFactory {
 			throw new Exception('You have to provide at least a type to the cache factory.');
 		}
 		$name = 'Cache' . ucfirst($type);
-		$configuration['cacheName'] = $name;
-		require(dirname(__FILE__) . '/adapters/' . $name . '.php');
+		require('adapters/' . $name . '.php');
 		return new $name($configuration);
 	}
 }

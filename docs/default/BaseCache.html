@@ -1,0 +1,1024 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+			<!-- template designed by Marco Von Ballmoos -->
+			<title>Docs For Class BaseCache</title>
+			<link rel="stylesheet" href="../media/stylesheet.css" />
+			<meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'/>
+		</head>
+		<body>
+			<div class="page-body">			
+<h2 class="class-name">Class BaseCache</h2>
+
+<a name="sec-description"></a>
+<div class="info-box">
+	<div class="info-box-title">Description</div>
+	<div class="nav-bar">
+					<span class="disabled">Description</span> |
+							<a href="#sec-descendents">Descendents</a>
+			|											<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+						|											<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+						
+					</div>
+	<div class="info-box-body">
+                <p class="implements">
+            Implements interfaces:
+            <ul>
+                <li>ArrayAccess (internal interface)</li>            </ul>
+        </p>
+        		<!-- ========== Info from phpDoc block ========= -->
+		<p class="notes">
+			Located in <a class="field" href="_BaseCache.php.html">/BaseCache.php</a> (line <span class="field">8</span>)
+		</p>
+		
+				
+		<pre></pre>
+	
+			</div>
+</div>
+
+	<a name="sec-descendents"></a>
+	<div class="info-box">
+		<div class="info-box-title">Direct descendents</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+			<span class="disabled">Descendents</span>
+			|												<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+								|															<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+							
+								</div>
+		<div class="info-box-body">
+			<table cellpadding="2" cellspacing="0" class="class-table">
+				<tr>
+					<th class="class-table-header">Class</th>
+					<th class="class-table-header">Description</th>
+				</tr>
+								<tr>
+					<td style="padding-right: 2em"><a href="../MegaCache/CacheSqlite.html">CacheSqlite</a></td>
+					<td>
+											CacheSqlite class.
+										</td>
+				</tr>
+								<tr>
+					<td style="padding-right: 2em"><a href="../MegaCache/cacheMemcached.html">cacheMemcached</a></td>
+					<td>
+											cacheMemcached class.
+										</td>
+				</tr>
+								<tr>
+					<td style="padding-right: 2em"><a href="../MegaCache/cacheSession.html">cacheSession</a></td>
+					<td>
+											cacheSession class.
+										</td>
+				</tr>
+								<tr>
+					<td style="padding-right: 2em"><a href="../MegaCache/cacheMemcache.html">cacheMemcache</a></td>
+					<td>
+											cacheMemcache class.
+										</td>
+				</tr>
+								<tr>
+					<td style="padding-right: 2em"><a href="../MegaCache/CacheNull.html">CacheNull</a></td>
+					<td>
+											CacheNull class.
+										</td>
+				</tr>
+								<tr>
+					<td style="padding-right: 2em"><a href="../MegaCache/cacheApc.html">cacheApc</a></td>
+					<td>
+											cacheApc class.
+										</td>
+				</tr>
+								<tr>
+					<td style="padding-right: 2em"><a href="../MegaCache/CachePdo.html">CachePdo</a></td>
+					<td>
+											CachePdo class.
+										</td>
+				</tr>
+								<tr>
+					<td style="padding-right: 2em"><a href="../MegaCache/cacheSingleFile.html">cacheSingleFile</a></td>
+					<td>
+											cacheSingleFile class.
+										</td>
+				</tr>
+							</table>
+		</div>
+	</div>
+
+
+	<a name="sec-var-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Variable Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+							<a href="#sec-descendents">Descendents</a> |
+						<span class="disabled">Vars</span> (<a href="#sec-vars">details</a>)
+							| 
+									<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+							
+								</div>
+		<div class="info-box-body">
+			<div class="var-summary">
+																																<div class="var-title">
+					<span class="var-type">mixed</span>
+					<a href="#$sessionStats" title="details" class="var-name">$sessionStats</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">mixed</span>
+					<a href="#$store" title="details" class="var-name">$store</a>
+				</div>
+											</div>
+		</div>
+	</div>
+
+	<a name="sec-method-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Method Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+							<a href="#sec-descendents">Descendents</a> |
+																		<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+				 
+				|
+						<span class="disabled">Methods</span> (<a href="#sec-methods">details</a>)
+		</div>
+		<div class="info-box-body">			
+			<div class="method-summary">
+																																																																																																																																				
+												<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#__construct" title="details" class="method-name">__construct</a>
+											(<span class="var-type">mixed</span>&nbsp;<span class="var-name">$configuration</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">mixed</span>
+										<a href="#call" title="details" class="method-name">call</a>
+											(<span class="var-type">mixed</span>&nbsp;<span class="var-name">$function</span>, <span class="var-type">array</span>&nbsp;<span class="var-name">$arguments</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$timeout</span> = <span class="var-default">0</span>], <span class="var-type">int</span>&nbsp;<span class="var-name">$timeout.</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">bool</span>
+										<a href="#decrement" title="details" class="method-name">decrement</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$varName</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$with</span> = <span class="var-default">1</span>], <span class="var-type">int</span>&nbsp;<span class="var-name">$with.</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">bool</span>
+										<a href="#delete" title="details" class="method-name">delete</a>
+											(<span class="var-type">mixed</span>&nbsp;<span class="var-name">$varName</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">mixed</span>
+										<a href="#fetch" title="details" class="method-name">fetch</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$resource</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$timeout</span> = <span class="var-default">0</span>], <span class="var-type">int</span>&nbsp;<span class="var-name">$timeout.</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#flush" title="details" class="method-name">flush</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">mixed</span>
+										<a href="#get" title="details" class="method-name">get</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$varName</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">array</span>
+										<a href="#getStats" title="details" class="method-name">getStats</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#globalStats" title="details" class="method-name">globalStats</a>
+											([<span class="var-type"></span>&nbsp;<span class="var-name">$save</span> = <span class="var-default">true</span>], <span class="var-type">bool</span>&nbsp;<span class="var-name">$save.</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">bool</span>
+										<a href="#increment" title="details" class="method-name">increment</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$varName</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$with</span> = <span class="var-default">1</span>], <span class="var-type">int</span>&nbsp;<span class="var-name">$with.</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#offsetExists" title="details" class="method-name">offsetExists</a>
+											(<span class="var-type">mixed</span>&nbsp;<span class="var-name">$offset</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#offsetGet" title="details" class="method-name">offsetGet</a>
+											(<span class="var-type">mixed</span>&nbsp;<span class="var-name">$offset</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#offsetSet" title="details" class="method-name">offsetSet</a>
+											(<span class="var-type">mixed</span>&nbsp;<span class="var-name">$offset</span>, <span class="var-type">mixed</span>&nbsp;<span class="var-name">$value</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#offsetUnset" title="details" class="method-name">offsetUnset</a>
+											(<span class="var-type">mixed</span>&nbsp;<span class="var-name">$offset</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#saveStore" title="details" class="method-name">saveStore</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">bool</span>
+										<a href="#set" title="details" class="method-name">set</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$varName</span>, <span class="var-type">mixed</span>&nbsp;<span class="var-name">$value</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$timeout</span> = <span class="var-default">0</span>], <span class="var-type">int</span>&nbsp;<span class="var-name">$timeout.</span>)
+									</div>
+								</div>
+		</div>
+	</div>		
+
+	<a name="sec-vars"></a>
+	<div class="info-box">
+		<div class="info-box-title">Variables</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+							<a href="#sec-descendents">Descendents</a> |
+										<a href="#sec-var-summary">Vars</a> (<span class="disabled">details</span>)
+						
+			
+										| 
+									<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+							
+					</div>
+		<div class="info-box-body">
+			<a name="var$sessionStats" id="$sessionStats"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>
+			<span class="var-name">$sessionStats</span>
+						(line <span class="line-number">18</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">BaseCache class.</p>
+<p class="description"><p>contains everything that is not adapter specific  such as statistics, function caching, resource caching, ...</p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$store" id="$store"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>
+			<span class="var-name">$store</span>
+						(line <span class="line-number">19</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+						
+		</div>
+	</div>
+	
+	<a name="sec-methods"></a>
+	<div class="info-box">
+		<div class="info-box-title">Methods</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+							<a href="#sec-descendents">Descendents</a> |
+															<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+																	<a href="#sec-method-summary">Methods</a> (<span class="disabled">details</span>)
+						
+		</div>
+		<div class="info-box-body">
+			<A NAME='method_detail'></A>
+
+<a name="method__construct" id="__construct"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">Constructor __construct</span> (line <span class="line-number">30</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">__construct function.</p>
+<p class="description"><p>initializes stats and store</p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			__construct
+		</span>
+					(<span class="var-type">mixed</span>&nbsp;<span class="var-name">$configuration</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">mixed</span>
+				<span class="var-name">$configuration</span>			</li>
+				</ul>
+		
+			
+			<hr class="separator" />
+		<div class="notes">Redefined in descendants as:</div>
+		<ul class="redefinitions">
+					<li>
+				<a href="../MegaCache/CacheSqlite.html#method__construct">CacheSqlite::__construct()</a>
+								: __construct function.
+							</li>
+					<li>
+				<a href="../MegaCache/cacheMemcached.html#method__construct">cacheMemcached::__construct()</a>
+								: __construct function.
+							</li>
+					<li>
+				<a href="../MegaCache/cacheSession.html#method__construct">cacheSession::__construct()</a>
+								: __construct function.
+							</li>
+					<li>
+				<a href="../MegaCache/cacheMemcache.html#method__construct">cacheMemcache::__construct()</a>
+								: __construct function.
+							</li>
+					<li>
+				<a href="../MegaCache/CacheNull.html#method__construct">CacheNull::__construct()</a>
+								: __construct function.
+							</li>
+					<li>
+				<a href="../MegaCache/cacheApc.html#method__construct">cacheApc::__construct()</a>
+								: __construct function.
+							</li>
+					<li>
+				<a href="../MegaCache/CachePdo.html#method__construct">CachePdo::__construct()</a>
+								: __construct function.
+							</li>
+					<li>
+				<a href="../MegaCache/cacheSingleFile.html#method__construct">cacheSingleFile::__construct()</a>
+								: __construct function.
+							</li>
+				</ul>
+	</div>
+<a name="methodcall" id="call"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">call</span> (line <span class="line-number">147</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">call function.</p>
+<p class="description"><p>cache a function call</p><p>Example:   if you have a function called sum and you want to cache the results of it for 10 seconds: 		$cache-&gt;call('sum', array(5,6), 10); 		where you would normally write: sum(5,6);</p><p>You can also call methods by passing an array as first argument: array($myObject, 'doSomething');</p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">mixed</span>
+		<span class="method-name">
+			call
+		</span>
+					(<span class="var-type">mixed</span>&nbsp;<span class="var-name">$function</span>, <span class="var-type">array</span>&nbsp;<span class="var-name">$arguments</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$timeout</span> = <span class="var-default">0</span>], <span class="var-type">int</span>&nbsp;<span class="var-name">$timeout.</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">mixed</span>
+				<span class="var-name">$function</span>			</li>
+					<li>
+				<span class="var-type">array</span>
+				<span class="var-name">$arguments</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$timeout.</span><span class="var-description">: (default: 0)</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$timeout</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methoddecrement" id="decrement"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">decrement</span> (line <span class="line-number">106</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">decrement function.</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">bool</span>
+		<span class="method-name">
+			decrement
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$varName</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$with</span> = <span class="var-default">1</span>], <span class="var-type">int</span>&nbsp;<span class="var-name">$with.</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$varName</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$with.</span><span class="var-description">: (default: 1)</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$with</span>			</li>
+				</ul>
+		
+			
+			<hr class="separator" />
+		<div class="notes">Redefined in descendants as:</div>
+		<ul class="redefinitions">
+					<li>
+				<a href="../MegaCache/cacheMemcached.html#methoddecrement">cacheMemcached::decrement()</a>
+								: decrement function.
+							</li>
+					<li>
+				<a href="../MegaCache/cacheMemcache.html#methoddecrement">cacheMemcache::decrement()</a>
+								: decrement function.
+							</li>
+					<li>
+				<a href="../MegaCache/cacheApc.html#methoddecrement">cacheApc::decrement()</a>
+								: decrement function.
+							</li>
+				</ul>
+	</div>
+<a name="methoddelete" id="delete"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">delete</span> (line <span class="line-number">79</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">delete function. will be called from the adapter itself</p>
+<p class="description"><p>Example:   $cache-&gt;delete('myVar');</p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">bool</span>
+		<span class="method-name">
+			delete
+		</span>
+					(<span class="var-type">mixed</span>&nbsp;<span class="var-name">$varName</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">mixed</span>
+				<span class="var-name">$varName</span>			</li>
+				</ul>
+		
+			
+			<hr class="separator" />
+		<div class="notes">Redefined in descendants as:</div>
+		<ul class="redefinitions">
+					<li>
+				<a href="../MegaCache/CacheSqlite.html#methoddelete">CacheSqlite::delete()</a>
+								: delete function.
+							</li>
+					<li>
+				<a href="../MegaCache/cacheMemcached.html#methoddelete">cacheMemcached::delete()</a>
+								: delete function.
+							</li>
+					<li>
+				<a href="../MegaCache/cacheSession.html#methoddelete">cacheSession::delete()</a>
+								: delete function.
+							</li>
+					<li>
+				<a href="../MegaCache/cacheMemcache.html#methoddelete">cacheMemcache::delete()</a>
+								: delete function.
+							</li>
+					<li>
+				<a href="../MegaCache/CacheNull.html#methoddelete">CacheNull::delete()</a>
+								: delete function.
+							</li>
+					<li>
+				<a href="../MegaCache/cacheApc.html#methoddelete">cacheApc::delete()</a>
+								: delete function.
+							</li>
+					<li>
+				<a href="../MegaCache/CachePdo.html#methoddelete">CachePdo::delete()</a>
+								: delete function.
+							</li>
+					<li>
+				<a href="../MegaCache/cacheSingleFile.html#methoddelete">cacheSingleFile::delete()</a>
+								: delete function.
+							</li>
+				</ul>
+	</div>
+<a name="methodfetch" id="fetch"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">fetch</span> (line <span class="line-number">168</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">fetch function.</p>
+<p class="description"><p>fetches a resource. can fetch anything file_get_contents can</p><p>Example: $cache-&gt;fetch('http://www.google.com', 10);</p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">mixed</span>
+		<span class="method-name">
+			fetch
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$resource</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$timeout</span> = <span class="var-default">0</span>], <span class="var-type">int</span>&nbsp;<span class="var-name">$timeout.</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$resource</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$timeout.</span><span class="var-description">: (default: 0)</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$timeout</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodflush" id="flush"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">flush</span> (line <span class="line-number">119</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">flush function.</p>
+<p class="description"><p>flush the cache</p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			flush
+		</span>
+				()
+			</div>
+	
+		
+			
+			<hr class="separator" />
+		<div class="notes">Redefined in descendants as:</div>
+		<ul class="redefinitions">
+					<li>
+				<a href="../MegaCache/cacheApc.html#methodflush">cacheApc::flush()</a>
+								: flush function.
+							</li>
+					<li>
+				<a href="../MegaCache/cacheSingleFile.html#methodflush">cacheSingleFile::flush()</a>
+								: flush function.
+							</li>
+				</ul>
+	</div>
+<a name="methodget" id="get"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">get</span> (line <span class="line-number">48</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">get function. will be called from the adapter itself</p>
+<p class="description"><p>Example:    $cache-&gt;get('myVar');</p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">mixed</span>
+		<span class="method-name">
+			get
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$varName</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$varName</span>			</li>
+				</ul>
+		
+			
+			<hr class="separator" />
+		<div class="notes">Redefined in descendants as:</div>
+		<ul class="redefinitions">
+					<li>
+				<a href="../MegaCache/CacheSqlite.html#methodget">CacheSqlite::get()</a>
+								: get function.
+							</li>
+					<li>
+				<a href="../MegaCache/cacheMemcached.html#methodget">cacheMemcached::get()</a>
+								: get function.
+							</li>
+					<li>
+				<a href="../MegaCache/cacheSession.html#methodget">cacheSession::get()</a>
+								: get function.
+							</li>
+					<li>
+				<a href="../MegaCache/cacheMemcache.html#methodget">cacheMemcache::get()</a>
+								: get function.
+							</li>
+					<li>
+				<a href="../MegaCache/CacheNull.html#methodget">CacheNull::get()</a>
+								: get function.
+							</li>
+					<li>
+				<a href="../MegaCache/cacheApc.html#methodget">cacheApc::get()</a>
+								: get function.
+							</li>
+					<li>
+				<a href="../MegaCache/CachePdo.html#methodget">CachePdo::get()</a>
+								: get function.
+							</li>
+					<li>
+				<a href="../MegaCache/cacheSingleFile.html#methodget">cacheSingleFile::get()</a>
+								: get function.
+							</li>
+				</ul>
+	</div>
+<a name="methodgetStats" id="getStats"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">getStats</span> (line <span class="line-number">187</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">getStats function.</p>
+<p class="description"><p>returns an array containing statistics about this request (session) and globally (global)</p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			getStats
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodglobalStats" id="globalStats"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">globalStats</span> (line <span class="line-number">198</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">globalStats function.</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			globalStats
+		</span>
+					([<span class="var-type"></span>&nbsp;<span class="var-name">$save</span> = <span class="var-default">true</span>], <span class="var-type">bool</span>&nbsp;<span class="var-name">$save.</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">bool</span>
+				<span class="var-name">$save.</span><span class="var-description">: (default: true)</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$save</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodincrement" id="increment"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">increment</span> (line <span class="line-number">93</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">increment function.</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">bool</span>
+		<span class="method-name">
+			increment
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$varName</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$with</span> = <span class="var-default">1</span>], <span class="var-type">int</span>&nbsp;<span class="var-name">$with.</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$varName</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$with.</span><span class="var-description">: (default: 1)</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$with</span>			</li>
+				</ul>
+		
+			
+			<hr class="separator" />
+		<div class="notes">Redefined in descendants as:</div>
+		<ul class="redefinitions">
+					<li>
+				<a href="../MegaCache/cacheMemcached.html#methodincrement">cacheMemcached::increment()</a>
+								: increment function.
+							</li>
+					<li>
+				<a href="../MegaCache/cacheMemcache.html#methodincrement">cacheMemcache::increment()</a>
+								: increment function.
+							</li>
+					<li>
+				<a href="../MegaCache/cacheApc.html#methodincrement">cacheApc::increment()</a>
+								: increment function.
+							</li>
+				</ul>
+	</div>
+<a name="methodoffsetExists" id="offsetExists"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">offsetExists</span> (line <span class="line-number">234</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">offsetExists function.</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			offsetExists
+		</span>
+					(<span class="var-type">mixed</span>&nbsp;<span class="var-name">$offset</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">mixed</span>
+				<span class="var-name">$offset</span>			</li>
+				</ul>
+		
+				<hr class="separator" />
+		<div class="notes">Implementation of:</div>
+			<dl>
+			<dt>ArrayAccess::offsetExists</dt>
+					</dl>
+			
+	</div>
+<a name="methodoffsetGet" id="offsetGet"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">offsetGet</span> (line <span class="line-number">245</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">offsetGet function.</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			offsetGet
+		</span>
+					(<span class="var-type">mixed</span>&nbsp;<span class="var-name">$offset</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">mixed</span>
+				<span class="var-name">$offset</span>			</li>
+				</ul>
+		
+				<hr class="separator" />
+		<div class="notes">Implementation of:</div>
+			<dl>
+			<dt>ArrayAccess::offsetGet</dt>
+					</dl>
+			
+	</div>
+<a name="methodoffsetSet" id="offsetSet"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">offsetSet</span> (line <span class="line-number">257</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">offsetSet function.</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			offsetSet
+		</span>
+					(<span class="var-type">mixed</span>&nbsp;<span class="var-name">$offset</span>, <span class="var-type">mixed</span>&nbsp;<span class="var-name">$value</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">mixed</span>
+				<span class="var-name">$offset</span>			</li>
+					<li>
+				<span class="var-type">mixed</span>
+				<span class="var-name">$value</span>			</li>
+				</ul>
+		
+				<hr class="separator" />
+		<div class="notes">Implementation of:</div>
+			<dl>
+			<dt>ArrayAccess::offsetSet</dt>
+					</dl>
+			
+	</div>
+<a name="methodoffsetUnset" id="offsetUnset"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">offsetUnset</span> (line <span class="line-number">268</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">offsetUnset function.</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			offsetUnset
+		</span>
+					(<span class="var-type">mixed</span>&nbsp;<span class="var-name">$offset</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">mixed</span>
+				<span class="var-name">$offset</span>			</li>
+				</ul>
+		
+				<hr class="separator" />
+		<div class="notes">Implementation of:</div>
+			<dl>
+			<dt>ArrayAccess::offsetUnset</dt>
+					</dl>
+			
+	</div>
+<a name="methodsaveStore" id="saveStore"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">saveStore</span> (line <span class="line-number">222</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">saveStore function.</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			saveStore
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodset" id="set"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">set</span> (line <span class="line-number">64</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">set function. will be called from the adapter itself</p>
+<p class="description"><p>Example: 	$cache-&gt;set('myVar', $value, 10);</p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">bool</span>
+		<span class="method-name">
+			set
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$varName</span>, <span class="var-type">mixed</span>&nbsp;<span class="var-name">$value</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$timeout</span> = <span class="var-default">0</span>], <span class="var-type">int</span>&nbsp;<span class="var-name">$timeout.</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$varName</span>			</li>
+					<li>
+				<span class="var-type">mixed</span>
+				<span class="var-name">$value</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$timeout.</span><span class="var-description">: (default: 0)</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$timeout</span>			</li>
+				</ul>
+		
+			
+			<hr class="separator" />
+		<div class="notes">Redefined in descendants as:</div>
+		<ul class="redefinitions">
+					<li>
+				<a href="../MegaCache/CacheSqlite.html#methodset">CacheSqlite::set()</a>
+								: set function.
+							</li>
+					<li>
+				<a href="../MegaCache/cacheMemcached.html#methodset">cacheMemcached::set()</a>
+								: set function.
+							</li>
+					<li>
+				<a href="../MegaCache/cacheSession.html#methodset">cacheSession::set()</a>
+								: set function.
+							</li>
+					<li>
+				<a href="../MegaCache/cacheMemcache.html#methodset">cacheMemcache::set()</a>
+								: set function.
+							</li>
+					<li>
+				<a href="../MegaCache/CacheNull.html#methodset">CacheNull::set()</a>
+								: set function.
+							</li>
+					<li>
+				<a href="../MegaCache/cacheApc.html#methodset">cacheApc::set()</a>
+								: set function.
+							</li>
+					<li>
+				<a href="../MegaCache/CachePdo.html#methodset">CachePdo::set()</a>
+								: set function.
+							</li>
+					<li>
+				<a href="../MegaCache/cacheSingleFile.html#methodset">cacheSingleFile::set()</a>
+								: set function.
+							</li>
+				</ul>
+	</div>
+						
+		</div>
+	</div>
+
+
+	<p class="notes" id="credit">
+		Documentation generated on Sat, 30 Oct 2010 07:12:54 -0500 by <a href="http://www.phpdoc.org" target="_blank">phpDocumentor 1.4.3</a>
+	</p>
+	</div></body>
+</html>
