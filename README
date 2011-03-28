@@ -1,0 +1,197 @@
+                                           _           
+                                          | |          
+ ____  _____  ____ _____  ____ _____  ____| |__  _____ 
+|    \| ___ |/ _  (____ |/ ___|____ |/ ___)  _ \| ___ |
+| | | | ____( (_| / ___ ( (___/ ___ ( (___| | | | ____|
+|_|_|_|_____)\___ \_____|\____)_____|\____)_| |_|_____)
+            (_____|                                    
+
+version 1.0
+
+Thanks for buying this file at CodeCanyon!
+
+This document will assist you with setting up and exploring all the possibilities of this library.
+
+
+1) Introduction
+----------------
+
+Make your website super fast by using caching! Everyone hates it when they have to wait for more than three seconds to view 
+a webpage. Reasons for slowness are sudden traffic spikes, slow database servers, complex number crunching, ...
+
+The easiest way to speed up any website is by caching the data that makes it slow. Enter MegaCache!
+
+2) Features
+-----------
+
+- Eight adapters. Store your cache where and how you want.
+- Function call caching. Cache the results of functions.
+- Resource caching. Cache external resources such as API calls (Twitter, ...) for a predefined amount of time.
+- Easy to use and implement.
+- Statistics. Check the hits and misses of each cache call.
+- Array access. Treat your cache object like an array!
+- Documented code!
+
+
+3) Adapters
+-----------
+
+MegaCache is bundled with 8 adapters (8 different ways to cache your data):
+
+- Null: 
+	the most basic of caching strategies. Keeps things in memory and forgets them after the page is loaded. Use if you
+	don't have any other option.
+- Sqlite: 
+	uses the built in Sqlite support. Sqlite is an embedded database (you don't have to install anything) with some
+	advanced features (such as locking) that performs quite well. Very fast if you read a lot of data, slower
+	if you write a lot of data.
+- SingleFile:
+	stores everything in a single file. Very fast but not thread-safe (meaning that if two users make the same
+	request the last write will be remembered).
+- Session: 
+	stores data in the user's $_SESSION variable. Fast but not persistent across users.
+- APC: 
+	stores data in memory thanks to the APC (Alternative PHP Cache). The fastest across the board. Requires the APC
+	extension.
+- Memcache and Memcached:
+	two adapters to connect to one or more Memcached servers. The first one requires the memcache extension, the 
+	second one required the memcached extension. Recommended for large installations.
+- PDO:
+    	utilizes the Portable Data Objects extension which enables you to connect to a large number of different databases.
+    	Only tested with MySQL but should work with most vendors.
+	
+4) Initialization
+-----------------
+
+This library comes with a factory class that allows you to initialize any adapter. Usage is very simple:
+
+<?php
+require('path/to/CacheFactory.php');
+$cache = CacheFactory::factory('Apc', $configArray='');
+?> 
+
+The first argument is the adapter name, the second one is an array containing configuration options. Please consult the class documentation
+to view the configuration options for each adapter.
+
+5) Usage
+---------
+
+	----------------
+	a) storing data
+	----------------
+	
+	$cache->set('myVar', $value, $timeout);
+	
+	Stores $value in myVar for $timeout seconds. If you pass 0 then it will be cached forever (or until the cache gets full or cleared).
+	
+	-----------------
+	b) fetching data
+	-----------------
+	
+	$value = $cache->get('myVar');
+	
+	returns the data or false
+	
+	-----------------
+	c) deleting data
+	-----------------
+	
+	$cache->delete('myVar');
+
+
+6) Function caching
+--------------------
+
+In many situations you'll want to cache the result of a function. Say for example we have a very complicated and time consuming function that
+takes two numbers and makes the sum of both:
+
+function sum($a, $b) {
+	sleep(5); // we have to simulate it's complicated right?
+}
+
+Normally you would do:
+
+echo "The sum of $a and $b is " . sum($a, $b);
+
+And you would see the result 5 seconds later. With MegaCache you can simply do:
+
+echo "The sum of $a and $b is " . $cache->call('sum', array($a, $b), 120);
+
+The first time will also take 5 seconds. However, afterwards the result will be cached for 120 seconds and your complex calculation will be executed.
+If you change a or b, the function will run again.
+
+
+7) Fragment caching
+--------------------
+
+Often only parts of your website need to be cached. This can be accomplished with fragment caching.
+
+Take for example this code:
+
+$newsticker = new NewsTicker(); // an imaginary widget that does a lot of processing
+foreach($newsticker->news as $item) {
+	echo "<h2>Item</h2>";
+}
+
+If you want this fragment of your page to be cached simply wrap it in a fragment conditional.
+
+if(!$cache->fragment('newsticker')) {
+	$newsticker = new NewsTicker(); // an imaginary widget that does a lot of processing
+	foreach($newsticker->news as $item) {
+		echo "<h2>Item</h2>";
+	}	
+	$this->saveFragment(300);
+}
+
+This will cache the newsticker component for 5 minutes. Each next page view the fragment call will automatically output the newsticker.
+
+
+8) Resource caching
+--------------------
+
+Pretend you want to show a Twitter feed on your webpage. Normally every page load will fetch your Twitter RSS feed. Since Twitter can be slow,
+your website may also feel slow sometimes.
+
+Normally you would do:
+
+$twitter = file_get_contents('http://twitter.com/statuses/user_timeline/61297416.rss');
+// and then mark up this code
+
+With MegaCache you can simply do:
+$twitter = $cache->fetch('http://twitter.com/statuses/user_timeline/61297416.rss', 300);
+
+And your twitter feed will be cached for 5 minutes!
+
+
+9) Statistics
+--------------
+
+If you call $cache->getStats(); you will receive an array containing all the hits, misses, sets, deletes, gets, ... of both the current page view (session) 
+and the sum of all requests.
+
+
+10) Array access
+---------------
+
+At any time you can use your cache object like an array. Sets made will have timeout 0.
+
+$cache->set('myVar', 10);
+echo $cache['myVar']; //10
+
+11) Benchmarking
+-----------------
+
+The test directory contains a small test scenario that measures the speed of the various adapters. This is not a real world test (at all) 
+but it gives a good indication of the speed of the various adapters.
+
+These are my results.
+	- Null: disqualified since it is not persistent.
+	- Sqlite: 1,5x faster than without caching. Main reason is it seems to be very slow on inserts.
+	- SingleFile: 45x faster than without caching.
+	- Session: 6x faster.
+	- APC: 51x faster. Use this!
+	- Memcache: 16x faster.
+	- Memcached: 13x faster. Weird enough slower than Memcache across the board (library overhead?).
+	- PDO: 5x faster. Also slower because of DB inserts.
+
+
