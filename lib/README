@@ -8,7 +8,7 @@
 
 version 1.0
 
-Thanks for buying this file at CodeCanyon!
+Licensed as LGPL.
 
 This document will assist you with setting up and exploring all the possibilities of this library.
 
@@ -178,19 +178,7 @@ At any time you can use your cache object like an array. Sets made will have tim
 $cache->set('myVar', 10);
 echo $cache['myVar']; //10
 
-
-11) Directory layout
---------------------
-
-lib
-  - the directory containing the library
-docs
-  - the documentation you are reading now
-test
-  - simple testing and benchmarking for the various adapters
-
-
-12) Benchmarking
+11) Benchmarking
 -----------------
 
 The test directory contains a small test scenario that measures the speed of the various adapters. This is not a real world test (at all) 
@@ -205,9 +193,3 @@ These are my results.
 	- Memcache: 16x faster.
 	- Memcached: 13x faster. Weird enough slower than Memcache across the board (library overhead?).
 	- PDO: 5x faster. Also slower because of DB inserts.
-
-
-13) More information
---------------------
-
-Please consult the examples in test or the code documetation for in-depth documentation.
